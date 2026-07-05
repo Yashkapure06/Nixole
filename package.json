@@ -1,0 +1,30 @@
+{
+  "name": "nixole",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node api.js && vite dev",
+    "build": "node api.js && vite build",
+    "start": "node api.js && node .output/server/index.mjs"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.66.0",
+    "@tanstack/react-router": "^1.121.0",
+    "@tanstack/react-start": "^1.121.0",
+    "framer-motion": "^12.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@netlify/vite-plugin-tanstack-start": "^1.3.16",
+    "@tailwindcss/vite": "^4.1.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.4.0",
+    "tailwindcss": "^4.1.0",
+    "tw-animate-css": "^1.3.0",
+    "typescript": "^5.8.0",
+    "vite": "^7.0.0",
+    "vite-tsconfig-paths": "^5.1.0"
+  }
+}
